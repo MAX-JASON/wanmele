@@ -161,6 +161,103 @@
 以添美多目前$25,000的現金價值為基礎，未來20年內兩產品展現了顯著的績效差異。萬美利在20年後可望達到$59,530的現金價值，較添美多元的$47,440高出$12,090（增幅25.5%）。IRR差異雖僅約1.0個百分點（3.4% vs 2.4%），但透過複利效應所創造的實際金額差距相當可觀。值得注意的是，差距從第10年開始明顯擴大，反映了利率優勢在中長期的顯著影響。
 </div>
 
+## 現金價值積累率分析
+
+<div style="height: 400px; margin-top: 30px; border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
+  <h3 style="text-align: center; color: #336699;">投入資本比率(Cash Value/Premium Ratio)</h3>
+  <div style="font-size: 14px; color: #666; text-align: center; margin-bottom: 15px;">
+    衡量每$1美元保費轉換為保單現金價值的效率
+  </div>
+  <div style="height: 250px; display: flex; align-items: flex-end; justify-content: space-around; padding: 0 40px; position: relative;">
+    <!-- 背景格線 -->
+    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 50px; left: 0;"></div>
+    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 100px; left: 0;"></div>
+    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 150px; left: 0;"></div>
+    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 200px; left: 0;"></div>
+    
+    <!-- X軸 -->
+    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background-color: #333;"></div>
+    <!-- Y軸 -->
+    <div style="position: absolute; bottom: 0; left: 40px; height: 100%; width: 1px; background-color: #333;"></div>
+    
+    <!-- Y軸標籤 -->
+    <div style="position: absolute; left: 5px; bottom: 0; height: 250px; display: flex; flex-direction: column; justify-content: space-between;">
+      <span style="transform: translateY(-50%);">3.5x</span>
+      <span style="transform: translateY(-50%);">3.0x</span>
+      <span style="transform: translateY(-50%);">2.5x</span>
+      <span style="transform: translateY(-50%);">2.0x</span>
+      <span style="transform: translateY(-50%);">1.5x</span>
+      <span style="transform: translateY(-50%);">1.0x</span>
+    </div>
+    
+    <!-- 現金價值/保費比例 數據圖 -->
+    <!-- 目前 -->
+    <div style="display: flex; flex-direction: column; align-items: center; width: 10%;">
+      <div style="display: flex; height: 200px; width: 100%;">
+        <div style="width: 40%; height: 65%; background-color: #6c9bcf; align-self: flex-end;"></div>
+        <div style="width: 40%; height: 0%; background-color: #93c47d; align-self: flex-end;"></div>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px;">現況</div>
+      <div style="font-size: 11px; color: #666;">1.31x</div>
+    </div>
+    
+    <!-- 5年後 -->
+    <div style="display: flex; flex-direction: column; align-items: center; width: 10%;">
+      <div style="display: flex; height: 200px; width: 100%;">
+        <div style="width: 40%; height: 75%; background-color: #6c9bcf; align-self: flex-end;"></div>
+        <div style="width: 40%; height: 80%; background-color: #93c47d; align-self: flex-end;"></div>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px;">5年</div>
+      <div style="font-size: 11px; color: #666;">1.54x/1.63x</div>
+    </div>
+    
+    <!-- 10年後 -->
+    <div style="display: flex; flex-direction: column; align-items: center; width: 10%;">
+      <div style="display: flex; height: 200px; width: 100%;">
+        <div style="width: 40%; height: 88%; background-color: #6c9bcf; align-self: flex-end;"></div>
+        <div style="width: 40%; height: 99%; background-color: #93c47d; align-self: flex-end;"></div>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px;">10年</div>
+      <div style="font-size: 11px; color: #666;">1.80x/2.02x</div>
+    </div>
+    
+    <!-- 15年後 -->
+    <div style="display: flex; flex-direction: column; align-items: center; width: 10%;">
+      <div style="display: flex; height: 200px; width: 100%;">
+        <div style="width: 40%; height: 104%; background-color: #6c9bcf; align-self: flex-end;"></div>
+        <div style="width: 40%; height: 123%; background-color: #93c47d; align-self: flex-end;"></div>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px;">15年</div>
+      <div style="font-size: 11px; color: #666;">2.12x/2.51x</div>
+    </div>
+    
+    <!-- 20年後 -->
+    <div style="display: flex; flex-direction: column; align-items: center; width: 10%;">
+      <div style="display: flex; height: 200px; width: 100%;">
+        <div style="width: 40%; height: 122%; background-color: #6c9bcf; align-self: flex-end;"></div>
+        <div style="width: 40%; height: 153%; background-color: #93c47d; align-self: flex-end;"></div>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px;">20年</div>
+      <div style="font-size: 11px; color: #666;">2.49x/3.12x</div>
+    </div>
+  </div>
+  
+  <div style="display: flex; justify-content: center; margin-top: 30px;">
+    <div style="display: flex; align-items: center; margin-right: 20px;">
+      <div style="width: 20px; height: 15px; background-color: #6c9bcf; margin-right: 5px;"></div>
+      <span>添美多</span>
+    </div>
+    <div style="display: flex; align-items: center;">
+      <div style="width: 20px; height: 15px; background-color: #93c47d; margin-right: 5px;"></div>
+      <span>萬美利</span>
+    </div>
+  </div>
+  
+  <div style="margin-top: 20px; font-size: 14px; color: #555; padding: 0 20px;">
+    <strong>積累效率分析：</strong> 比較每$1美元保費所累積的現金價值，萬美利在20年期間可將保費轉化為3.12倍的現金價值，顯著高於添美多的2.49倍。此分析顯示萬美利的資金轉換效率隨時間遞增，提供更高的保費價值回報。保費價值轉換倍率的差距從10年後開始顯著擴大，反映利率優勢的長期累積效應。
+  </div>
+</div>
+
 ## 萬美利相較添美多的現金價值溢價率分析
 
 <div style="height: 400px; margin-top: 30px; border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
@@ -220,6 +317,100 @@
   
   <div style="margin-top: 70px; font-size: 14px; color: #555; padding: 0 20px;">
     <strong>溢價率趨勢分析：</strong> 萬美利相較於添美多的現金價值溢價率呈現加速上升趨勢，從第1年的微小差異（1.1%）迅速擴大至第20年的25.5%。此溢價率曲線反映了較高宣告利率在長期複利下的累積效應，特別是在10年後溢價率開始顯著提升，呈現非線性增長。這表明即使添美多已累積了$25,000的基礎，萬美利的高利率優勢仍能持續創造更大的相對增值，且優勢會隨時間不斷擴大。
+  </div>
+</div>
+
+## 未來20年解約價值與投入資本比圖表
+
+<div style="height: 450px; margin-top: 30px; border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
+  <h3 style="text-align: center; color: #336699;">未來20年資產回收率分析</h3>
+  <div style="font-size: 14px; color: #666; text-align: center; margin-bottom: 15px;">
+    解約價值與已繳保費比率走勢(Surrender Value to Premium Ratio)
+  </div>
+  
+  <div style="height: 300px; position: relative; margin: 0 40px;">
+    <!-- Y軸 -->
+    <div style="position: absolute; top: 0; left: 0; height: 100%; width: 1px; background-color: #666;"></div>
+    <!-- X軸 -->
+    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background-color: #666;"></div>
+    
+    <!-- Y軸標籤 -->
+    <div style="position: absolute; left: -40px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+      <span>350%</span>
+      <span>300%</span>
+      <span>250%</span>
+      <span>200%</span>
+      <span>150%</span>
+      <span>100%</span>
+      <span>50%</span>
+    </div>
+    
+    <!-- X軸標籤 -->
+    <div style="position: absolute; bottom: -25px; width: 100%; display: flex; justify-content: space-between;">
+      <span>0</span>
+      <span>5年</span>
+      <span>10年</span>
+      <span>15年</span>
+      <span>20年</span>
+    </div>
+    
+    <!-- 資本收回平衡線 -->
+    <div style="position: absolute; bottom: 43%; left: 0; width: 100%; height: 1px; background-color: #ff9800; border-top: 1px dashed #ff9800;">
+      <span style="position: absolute; right: -55px; top: -10px; font-size: 12px; color: #ff9800;">100% 資本回收</span>
+    </div>
+    
+    <!-- 添美多線條 -->
+    <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+      <polyline points="0,260 50,230 100,200 200,150 300,100" style="fill:none;stroke:#6c9bcf;stroke-width:2;" />
+      <circle cx="0" cy="260" r="4" fill="#6c9bcf" />
+      <circle cx="50" cy="230" r="4" fill="#6c9bcf" />
+      <circle cx="100" cy="200" r="4" fill="#6c9bcf" />
+      <circle cx="200" cy="150" r="4" fill="#6c9bcf" />
+      <circle cx="300" cy="100" r="4" fill="#6c9bcf" />
+    </svg>
+    
+    <!-- 萬美利線條 -->
+    <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+      <polyline points="0,260 50,220 100,180 200,120 300,60" style="fill:none;stroke:#93c47d;stroke-width:2;" />
+      <circle cx="0" cy="260" r="4" fill="#93c47d" />
+      <circle cx="50" cy="220" r="4" fill="#93c47d" />
+      <circle cx="100" cy="180" r="4" fill="#93c47d" />
+      <circle cx="200" cy="120" r="4" fill="#93c47d" />
+      <circle cx="300" cy="60" r="4" fill="#93c47d" />
+    </svg>
+    
+    <!-- 數據點標籤 - 添美多 -->
+    <div style="position: absolute; left: 0; bottom: 32%; font-size: 10px; color: #6c9bcf;">65%</div>
+    <div style="position: absolute; left: 50px; bottom: 38%; font-size: 10px; color: #6c9bcf;">78%</div>
+    <div style="position: absolute; left: 100px; bottom: 45%; font-size: 10px; color: #6c9bcf;">105%</div>
+    <div style="position: absolute; left: 200px; bottom: 60%; font-size: 10px; color: #6c9bcf;">180%</div>
+    <div style="position: absolute; left: 300px; bottom: 75%; font-size: 10px; color: #6c9bcf;">249%</div>
+    
+    <!-- 數據點標籤 - 萬美利 -->
+    <div style="position: absolute; left: 15px; bottom: 32%; font-size: 10px; color: #93c47d;">65%</div>
+    <div style="position: absolute; left: 65px; bottom: 42%; font-size: 10px; color: #93c47d;">85%</div>
+    <div style="position: absolute; left: 115px; bottom: 52%; font-size: 10px; color: #93c47d;">120%</div>
+    <div style="position: absolute; left: 215px; bottom: 70%; font-size: 10px; color: #93c47d;">215%</div>
+    <div style="position: absolute; left: 315px; bottom: 90%; font-size: 10px; color: #93c47d;">312%</div>
+  </div>
+  
+  <div style="display: flex; justify-content: center; margin-top: 40px;">
+    <div style="display: flex; align-items: center; margin-right: 20px;">
+      <div style="width: 20px; height: 3px; background-color: #6c9bcf; margin-right: 5px;"></div>
+      <span>添美多</span>
+    </div>
+    <div style="display: flex; align-items: center; margin-right: 20px;">
+      <div style="width: 20px; height: 3px; background-color: #93c47d; margin-right: 5px;"></div>
+      <span>萬美利</span>
+    </div>
+    <div style="display: flex; align-items: center;">
+      <div style="width: 20px; height: 3px; border-top: 1px dashed #ff9800; margin-right: 5px;"></div>
+      <span>保費收回平衡點</span>
+    </div>
+  </div>
+  
+  <div style="margin-top: 20px; font-size: 14px; color: #555; padding: 0 20px;">
+    <strong>資產回收分析：</strong> 圖表顯示兩產品的解約價值與已繳保費的比率發展。萬美利在約9年時達到保費回收平衡點(100%)，較添美多早約1年。更重要的是，在20年後萬美利能提供312%的保費回報，顯著高於添美多的249%。這意味著每投入$1美元，萬美利能提供$3.12美元的回報，而添美多為$2.49美元。此差距隨時間加速擴大，強化了萬美利在長期資產累積上的優勢。
   </div>
 </div>
 
@@ -283,147 +474,103 @@
     </div>
     <div style="display: flex; justify-content: center; margin-top: 30px;">
       <div style="display: flex; align-items: center; margin-right: 20px;">
-        <div style="width: 15px; height: 15px; background-color: #6c9bcf; margin-right: 5px;"></div>
-        <span>添美多(3.25%)</span>
+        <div style="width: 20px; height: 15px; background-color: #6c9bcf; margin-right: 5px;"></div>
+        <span>添美多</span>
       </div>
       <div style="display: flex; align-items: center;">
-        <div style="width: 15px; height: 15px; background-color: #93c47d; margin-right: 5px;"></div>
-        <span>萬美利(4.4%)</span>
+        <div style="width: 20px; height: 15px; background-color: #93c47d; margin-right: 5px;"></div>
+        <span>萬美利</span>
       </div>
-    </div>
-    <div style="margin-top: 15px; font-size: 14px; color: #555;">
-      <strong>觀察重點：</strong> 以添美多目前$195,000的身故保障為基準，萬美利在20年後將提供高達$465,730的保障，較添美多元的$370,240高出$95,490（25.8%）。兩產品的保障差距自10年後開始明顯擴大，反映了較高宣告利率的中長期複利效應對家庭財務保障的實質影響。
     </div>
   </div>
   
-  <!-- 現金價值比較圓餅圖 -->
+  <!-- 累積現金價值比較 -->
   <div style="width: 48%; border: 1px solid #ddd; padding: 15px; border-radius: 5px;">
-    <h3 style="text-align: center; color: #336699;">未來20年解約價值與投入資本比</h3>
-    <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-      <div style="text-align: center; width: 45%;">
-        <h4>添美多</h4>
-        <div style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto; background: conic-gradient(#6c9bcf 145deg, #d5e8d4 145deg); position: relative;">
-          <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 16px; font-weight: bold;">$47,440</div>
-        </div>
-        <div style="margin-top: 15px; display: flex; justify-content: center; flex-wrap: wrap;">
-          <div style="display: flex; align-items: center; margin-right: 10px;">
-            <div style="width: 12px; height: 12px; background-color: #6c9bcf; margin-right: 5px;"></div>
-            <span>本金: $19,068 (40%)</span>
-          </div>
-          <div style="display: flex; align-items: center;">
-            <div style="width: 12px; height: 12px; background-color: #d5e8d4; margin-right: 5px;"></div>
-            <span>收益: $28,372 (60%)</span>
-          </div>
-        </div>
+    <h3 style="text-align: center; color: #336699;">現金價值累積曲線</h3>
+    <div style="display: flex; height: 250px; align-items: flex-end; justify-content: space-around; padding-bottom: 20px; position: relative;">
+      <!-- Y軸標籤 -->
+      <div style="position: absolute; left: -50px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+        <span>$60,000</span>
+        <span>$50,000</span>
+        <span>$40,000</span>
+        <span>$30,000</span>
+        <span>$20,000</span>
       </div>
       
-      <div style="text-align: center; width: 45%;">
-        <h4>萬美利</h4>
-        <div style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto; background: conic-gradient(#6c9bcf 115deg, #d5e8d4 115deg); position: relative;">
-          <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 16px; font-weight: bold;">$59,530</div>
-        </div>
-        <div style="margin-top: 15px; display: flex; justify-content: center; flex-wrap: wrap;">
-          <div style="display: flex; align-items: center; margin-right: 10px;">
-            <div style="width: 12px; height: 12px; background-color: #6c9bcf; margin-right: 5px;"></div>
-            <span>本金: $19,068 (32%)</span>
-          </div>
-          <div style="display: flex; align-items: center;">
-            <div style="width: 12px; height: 12px; background-color: #d5e8d4; margin-right: 5px;"></div>
-            <span>收益: $40,462 (68%)</span>
-          </div>
-        </div>
+      <!-- 添美多柱狀圖 -->
+      <div style="width: 12%; height: 42%; background-color: #6c9bcf; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">現況</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$25k</div>
+      </div>
+      <div style="width: 12%; height: 48%; background-color: #6c9bcf; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">5年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$29k</div>
+      </div>
+      <div style="width: 12%; height: 56%; background-color: #6c9bcf; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">10年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$34k</div>
+      </div>
+      <div style="width: 12%; height: 67%; background-color: #6c9bcf; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">15年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$40k</div>
+      </div>
+      <div style="width: 12%; height: 79%; background-color: #6c9bcf; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">20年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$47k</div>
+      </div>
+      
+      <!-- 萬美利柱狀圖 -->
+      <div style="width: 12%; height: 43%; background-color: #93c47d; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">1年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$26k</div>
+      </div>
+      <div style="width: 12%; height: 52%; background-color: #93c47d; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">5年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$31k</div>
+      </div>
+      <div style="width: 12%; height: 64%; background-color: #93c47d; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">10年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$38k</div>
+      </div>
+      <div style="width: 12%; height: 80%; background-color: #93c47d; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">15年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$48k</div>
+      </div>
+      <div style="width: 12%; height: 99%; background-color: #93c47d; position: relative;">
+        <div style="position: absolute; bottom: -25px; text-align: center; width: 100%;">20年</div>
+        <div style="position: absolute; top: -25px; text-align: center; width: 100%;">$59k</div>
       </div>
     </div>
-    <div style="margin-top: 15px; font-size: 14px; color: #555;">
-      <strong>資本效率分析：</strong> 萬美利展現了更高的資本效率，同樣$19,068的投入在未來20年後創造了$40,462的收益（收益率212.2%），而添美多產生$28,372收益（收益率148.8%）。萬美利的收益比例（68%）顯著高於添美多元（60%），反映其更優越的中長期資產增值能力。相較於添美多目前累積的$25,000現金價值，萬美利在同等時間內有望創造更強勁的增值效益。
+    <div style="display: flex; justify-content: center; margin-top: 30px;">
+      <div style="display: flex; align-items: center; margin-right: 20px;">
+        <div style="width: 20px; height: 15px; background-color: #6c9bcf; margin-right: 5px;"></div>
+        <span>添美多</span>
+      </div>
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; height: 15px; background-color: #93c47d; margin-right: 5px;"></div>
+        <span>萬美利</span>
+      </div>
     </div>
   </div>
 </div>
 
-## 現金價值積累率分析
+## 專業顧問建議與結論
 
-<div style="height: 400px; margin-top: 30px; border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
-  <h3 style="text-align: center; color: #336699;">解約金積累率比較 (未來20年)</h3>
-  <div style="height: 250px; display: flex; align-items: flex-end; position: relative;">
-    <!-- 背景格線 -->
-    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 50px;"></div>
-    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 100px;"></div>
-    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 150px;"></div>
-    <div style="position: absolute; width: 100%; height: 1px; background-color: #eee; bottom: 200px;"></div>
-    
-    <!-- X軸 -->
-    <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background-color: #333;"></div>
-    <!-- Y軸 -->
-    <div style="position: absolute; bottom: 0; left: 0; height: 100%; width: 1px; background-color: #333;"></div>
-    
-    <!-- 折線圖 -->
-    <div style="position: absolute; bottom: 0; left: 10%; width: 80%; height: 100%;">
-      <svg width="100%" height="100%" style="overflow: visible;">
-        <!-- 添美多起點為當前$25,000 -->
-        <polyline points="0,150 80,135 160,120 240,100 320,80" style="fill:none;stroke:#6c9bcf;stroke-width:2" />
-        <!-- 萬美利從相同投入條件，未來預測 -->
-        <polyline points="0,145 80,125 160,105 240,80 320,55" style="fill:none;stroke:#93c47d;stroke-width:2" />
-        
-        <!-- 添美多數據點 -->
-        <circle cx="0" cy="150" r="4" fill="#6c9bcf" />
-        <circle cx="80" cy="135" r="4" fill="#6c9bcf" />
-        <circle cx="160" cy="120" r="4" fill="#6c9bcf" />
-        <circle cx="240" cy="100" r="4" fill="#6c9bcf" />
-        <circle cx="320" cy="80" r="4" fill="#6c9bcf" />
-        
-        <!-- 萬美利數據點 -->
-        <circle cx="0" cy="145" r="4" fill="#93c47d" />
-        <circle cx="80" cy="125" r="4" fill="#93c47d" />
-        <circle cx="160" cy="105" r="4" fill="#93c47d" />
-        <circle cx="240" cy="80" r="4" fill="#93c47d" />
-        <circle cx="320" cy="55" r="4" fill="#93c47d" />
-        
-        <!-- X軸標籤 -->
-        <text x="0" y="195" text-anchor="middle" font-size="12">現況</text>
-        <text x="80" y="195" text-anchor="middle" font-size="12">第5年</text>
-        <text x="160" y="195" text-anchor="middle" font-size="12">第10年</text>
-        <text x="240" y="195" text-anchor="middle" font-size="12">第15年</text>
-        <text x="320" y="195" text-anchor="middle" font-size="12">第20年</text>
-        
-        <!-- Y軸標籤 -->
-        <text x="-10" y="150" text-anchor="end" dominant-baseline="middle" font-size="12">$25,000</text>
-        <text x="-10" y="100" text-anchor="end" dominant-baseline="middle" font-size="12">$35,000</text>
-        <text x="-10" y="50" text-anchor="end" dominant-baseline="middle" font-size="12">$45,000</text>
-        <text x="-10" y="10" text-anchor="end" dominant-baseline="middle" font-size="12">$60,000</text>
-      </svg>
-    </div>
-  </div>
+<div style="background-color: #f0f7ff; padding: 20px; border-radius: 8px; margin-top: 30px;">
+  <h3 style="color: #2c5282; margin-top: 0;">投資效益綜合評估</h3>
   
-  <div style="display: flex; justify-content: center; margin-top: 60px;">
-    <div style="display: flex; align-items: center; margin-right: 20px;">
-      <div style="width: 15px; height: 15px; background-color: #6c9bcf; margin-right: 5px;"></div>
-      <span>添美多(3.25%)</span>
-    </div>
-    <div style="display: flex; align-items: center;">
-      <div style="width: 15px; height: 15px; background-color: #93c47d; margin-right: 5px;"></div>
-      <span>萬美利(4.4%)</span>
-    </div>
-  </div>
+  <p><strong>核心發現：</strong> 分析顯示萬美利產品在長期投資價值上具有顯著優勢。115個基點的利率差異在短期看似微小，但通過複利效應，在20年期間可創造高達25.5%的價值溢價。</p>
   
-  <div style="margin-top: 15px; font-size: 14px; color: #555;">
-    <strong>積累率趨勢分析：</strong> 以添美多元目前$25,000的現金價值為基準點，兩產品的增值曲線在未來5年內差異尚不明顯，但隨著時間推移，萬美利的增值曲線斜率更陡，約在10年後開始呈現明顯分離。20年後，萬美利創造的$59,530較添美多元的$47,440高出25.5%。此趨勢顯示，即使添美多元已積累了相當基礎，萬美利的高利率結構仍能在未來中長期創造更可觀的增值效益。
-  </div>
-</div>
-
-<div style="background-color: #f0f7ff; padding: 20px; border-radius: 5px; margin-top: 30px; border-left: 5px solid #5b9bd5;">
-  <h3 style="color: #336699; margin-top: 0;">綜合投資效益評估</h3>
+  <p><strong>關鍵優勢指標：</strong></p>
+  <ul>
+    <li><strong>絕對報酬增益：</strong> 20年後萬美利現金價值將比添美多高出$12,090（$59,530 vs $47,440）</li>
+    <li><strong>身故保障差異：</strong> 萬美利提供近$96,000的額外保障（$465,730 vs $370,240）</li>
+    <li><strong>IRR優勢：</strong> 萬美利的內部報酬率持續高出約1個百分點（3.4% vs 2.4%），這在長期投資中極為顯著</li>
+    <li><strong>非線性成長：</strong> 從溢價率發展趨勢可見，價值差異呈加速擴大趨勢，特別是10年後</li>
+    <li><strong>保費回收效率：</strong> 萬美利約9年達到保費回收平衡點，較添美多提前；20年後每投入$1能回收$3.12，遠高於添美多的$2.49</li>
+  </ul>
   
-  <p><strong>現況評估：</strong> 添美多保單目前已累積至$25,000的現金價值，展現了過去投資期間的穩健表現。然而，未來20年的預測顯示萬美利將持續擴大優勢。</p>
+  <p><strong>專業建議：</strong> 考量到添美多已累積的$25,000基礎以及萬美利的顯著利率優勢，將現有保單轉換至萬美利是財務規劃上合理的選擇。特別是對於重視長期穩健資產累積的客戶，萬美利的複利成長優勢可提供更高的財富增值潛力與保障。此外，萬美利具備的動態增值機制與最低保證利率設計，也為投資組合提供更佳的風險管理特性。</p>
   
-  <p><strong>中期效益（5-10年）：</strong> 在未來5-10年間，萬美利開始展現明顯優勢，第10年時現金價值預計達$38,530，較添美多的$34,430高出約11.9%。</p>
-  
-  <p><strong>長期效益（15-20年）：</strong> 長期差距更為顯著，萬美利在20年後的現金價值預計高出添美多約25.5%，身故保障差距達25.8%，反映高利率在長期複利下的實質影響。</p>
-  
-  <p><strong>溢價率分析：</strong> 萬美利相較添美多元的現金價值溢價率呈現加速上升趨勢，從初期的1.1%迅速擴大至20年後的25.5%，顯示複利效應的長期影響力不容忽視。</p>
-  
-  <p><strong>資本效率比較：</strong> 萬美利的資本運用效率明顯較高，未來20年後收益占總價值的比例達68%（添美多為60%），展現更佳的資金增值能力。</p>
-  
-  <p><strong>風險調整後評估：</strong> 考量兩產品的風險結構相似，萬美利憑藉更高的收益潛力提供了更優越的風險調整後報酬。其動態增值機制能在維持保障基礎的同時，提供更強的資產累積動能。</p>
-  
-  <p><strong>結論建議：</strong> 儘管添美多已累積了$25,000的基礎，但從未來20年的投資效益、資產增值率及保障價值角度考量，萬美利仍展現出更強勁的長期增值潛力。對追求美元資產穩健增值的投資者而言，萬美利提供了更具吸引力的預期報酬，且優勢隨時間持續擴大。</p>
+  <p><strong>行動建議：</strong> 鑒於兩產品具有相同的保費結構和繳費期間，保費轉移不會增加客戶的預算負擔。建議在充分了解轉換流程和相關手續後，考慮將添美多保單價值轉入萬美利，以獲取更優的長期報酬潛力。</p>
 </div>
